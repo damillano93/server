@@ -3,7 +3,7 @@ var express = require('express');
 var app = express();
 process.env.NODE_ENV = 'development';
 app.get('/', function (req, res) {
-  res.send('hola mddundo como estamos!');
+  res.send('hola mundo automatizando todo!');
 });
 
 app.listen(3000, function () {
